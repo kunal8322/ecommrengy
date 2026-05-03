@@ -24,7 +24,7 @@ const Cart = () => {
     const discountAmount = totalActualPrice - totalPrice;
 
     const handleMinus = (item) => {
-        if (item.qty <= (item.minimumOrderQuantity || 1)) {
+        if (item.qty <= 1) {
             Alert.alert(
                 "Remove Item",
                 "Are you sure you want to remove this item?",
