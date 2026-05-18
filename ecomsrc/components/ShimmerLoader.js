@@ -3,7 +3,7 @@ import { View, StyleSheet, Dimensions } from 'react-native';
 import { createShimmerPlaceholder } from 'react-native-shimmer-placeholder';
 
 // Falling back to default View-based shimmer if LinearGradient link is missing/causing errors
-const ShimmerPlaceholder = createShimmerPlaceholder(); 
+const ShimmerPlaceholder = createShimmerPlaceholder();
 const { width } = Dimensions.get('window');
 const CARD_WIDTH = (width - 45) / 2;
 
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
         borderRadius: 14,
         padding: 10,
         marginBottom: 20,
-        elevation: 1,
+        elevation: 1
     },
     image: {
         width: '100%',
